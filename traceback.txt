@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 1485, in script
+    g "Yup, I know. You’ve grown so much!"
+Exception: Sayer 'g' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1485, in script
+    g "Yup, I know. You’ve grown so much!"
+  File "C:\Users\daniel\Desktop\Ren'py\renpy\ast.py", line 584, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\daniel\Desktop\Ren'py\renpy\ast.py", line 501, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'g' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.10.1227
+Bad Day 0.0
