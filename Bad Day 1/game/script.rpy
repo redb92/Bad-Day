@@ -5,6 +5,7 @@ image bg bedroom2 = "bg bedroom2.jpe"
 image bg street1 = "bg street.jpe"
 image bg street2 = "bg street.jpe"
 image bg building outside = "bg street.jpe"
+image bg bus station = "bg bus station.jpe"
 image carol happy = "carol happy.png"
 image carol smile = "carol smile.png"
 image carol neutral = "carol neutral.png"
@@ -1107,6 +1108,9 @@ label start:
     
     pause 1
     
+    play music "scene 3.mp3"
+    pause 1
+    
     c "Thanks for helping me out: a few more seconds and I would’ve exploded on the guy."
     
     a "Yeah, seems I was right on time. Who were they?"
@@ -1154,8 +1158,7 @@ label start:
     scene bg blackscreen with dissolve
     pause 2
     scene bg street2 with dissolve
-    play music "scene 3.mp3"
-    pause 1
+
     
     "We walked side by side for a couple of blocks."
     
@@ -1729,6 +1732,8 @@ label start:
     
     "But my proposal had no time to escape my throat."
     
+    play music "scene 4.mp3"
+    
     a "...you hate it when I say what?"
     
     c "‘I won’t ask’, ‘I’ll drop the subject’, ‘let’s talk about something else.’"
@@ -1828,6 +1833,8 @@ label start:
     
     hide carol smile with dissolve
     
+    stop music fadeout 1
+    
     scene bg blackscreen with dissolve
     
     "We decided to go back inside shortly afterwards. We took the elevator; the closed space warmed us up."
@@ -1871,6 +1878,399 @@ label start:
     
     "The door closed in front of my eyes, and I could only respond by planting my feet on the ground, unsure of what to do or think."
     
+    pause 2
+    
+    scene bg bus station with dissolve
+    play music "scene 1.mp3"
+    pause 1
+    
+    "The moment came sooner than I had expected."
+    
+    "Hail fell down on our heads for the first time in many years, and with it, school semesters all around the country came to an end."
+    
+    "Without even waiting to see the fruit of her efforts, Carol packed up and bought a bus ticket back home."
+    
+    "Her reasons were many, but they could all be boiled down to one:"
+    
+    show carol happy with dissolve
+    
+    c "Basically, nothing worked the way I hoped."
+    
+    hide carol happy with dissolve
+    
+    "The anthology was the first wall to fall apart."
+    
+    "Though she tried to reach a compromise, it turned out to be impossible for her, and in the end the group never reached an agreement."
+    
+    "Their teacher, apparently disappointed at their inability to see the flaws in their own craft, decided to postpone the project until further notice."
+    
+    "That notice never came."
+    
+    "At odds with her companions, and feeling that she wouldn’t get anything else out of that workshop anymore, Carol left the group soon afterwards."
+    
+    "Out of confidence of her own writing, she still held up some hope."
+    
+    "Desperately, she knocked on the door of every small-time publisher in town, begging them to take a look at her work."
+    
+    "Half of them ignored her pleas."
+    
+    "The other half looked at her poems, applauded some of them, but eventually concluded the overall quality wasn’t good enough for a book."
+    
+    "“But you have talent, so keep trying”, they said."
+    
+    scene bg bedroom with dissolve
+    pause 1
+    
+    "Out of a dozen of meetings, Carol got only a couple of emails, and not much else."
+    
+    show carol concerned with dissolve
+    
+    c "I’m not good enough to survive in that world on my own…"
+    
+    c "At least, not yet. That’s what I got out of the experience."
+    
+    hide carol concerned with dissolve
+    
+    "That wouldn’t have been enough to break her spirits, however."
+    
+    "She wasn’t good enough… “yet”."
+    
+    "But if she kept working on her craft, while balancing her studies on the side, sooner or later she’d reach the level editors desired of her."
+    
+    scene bg street1 with dissolve
+    
+    "But one night, as she was preparing herself to call her old teacher for a chance to go back to the workshop, Julian, her boyfriend, approached her."
+    
+    show carol neutral with dissolve
+    
+    c "He told me he was going back home."
+    
+    c "I asked him why."
+    
+    c "He said that his father was sick, and that he wouldn’t be able to take care of Julian’s mother anymore."
+    
+    show carol concerned
+    
+    c "He’d been thinking about it for a long time, apparently."
+    
+    c "Julian practiced, and practiced, but never felt the same passion for music as he once did."
+    
+    c "Studying at that school, competing for rewards he didn’t desire…"
+    
+    show carol neutral
+    
+    c "He was making himself unhappier with each passing day."
+    
+    c "And I noticed as well, how lately he hadn’t been acting as himself."
+    
+    show carol happy
+    
+    c "And well… even though he told me I could stay, I decided to stay by his side."
+    
+    hide carol happy with dissolve
+    
+    "Despite everything, she loved Julian, and she feared that by living apart, everything they had worked so hard to build together might’ve crumbled away."
+    
+    scene bg street2 with dissolve
+    
+    "Deep inside, Carol feared she wouldn’t be able to make it without Julian’s support."
+    
+    show carol smile with dissolve
+    
+    c "But I’m not giving up, y’know?"
+    
+    show carol happy
+    
+    c "I’ll keep working, and little by little I’ll get better. I did get some e-mail addresses, so if I write anything good I’ll send it their way."
+    
+    c "I’ll do it. No matter how much time it takes, I’ll do it."
+    
+    show carol smile
+    
+    c "Just you see."
+    
+    hide carol smile with dissolve
+    
+    "I could only mutter a half-hearted “I believe in you”."
+    
+    "Needless to say, I never knew about any of this: Carol told me only a few days prior."
+    
+    scene bg bus station with dissolve
+    
+    "We walked together to the station."
+    
+    "Julian wasn’t with us, as he had returned a few days ago to prepare everything beforehand."
+    
+    "There wasn’t much to talk about on the way there: everything had more-or-less been said before."
+    
+    "It was early in the morning, but there were still a lot of people around, possibly so they could get to their destinations while the sun was still out."
+    
+    "Carol’s hometown was 12 hours away from there."
+    
+    "I realized I’d never even thought of making such a long trip in my life."
+    
+    "It dawned on me just how far away she was going; how our afternoons just chatting on Carol’s terrace were not going to be possible anymore."
+    
+    "We lived in an extremely convenient era where I could just pick up the phone and talk with her anytime, and it was even possible to see each other through our computer screens."
+    
+    "I tried to reassure myself thinking that living half a country away wouldn’t be a problem, not with the current technology."
+    
+    "However, deep down, I knew it wouldn’t be the same."
+    
+    show carol happy at right with dissolve
+    pause 2
+    
+    "Carol smiled, just like she always did."
+    
+    "She never ceased to smile, even as she told me about all the problems she’d had."
+    
+    "I had too many questions I wanted to ask.. Why did she never tell me anything about this? Wasn’t there a way to convince Julian to stay? Couldn’t she stay, even if Julian wasn’t by her side?"
+    
+    "Why wouldn’t she trust me with her problems, with her secrets, with her company?"
+    
+    "But as always, I remained silent."
+    
+    hide carol happy at right with dissolve
+    
+    "The air in the station was cold, but leaning on each other’s shoulders as we waited for Carol’s bus to arrive made the experience a little more bearable."
+    
+    show carol happy with dissolve
+    
+    a "Do you have everything you need?"
+    
+    c "Mhm."
+    
+    a "Did you sort everything out with the landlord?"
+    
+    c "Yup, everything's ok."
+    
+    a "You sure you're not forgetting anything, right?"
+    
+    show carol angry
+    
+    c "Jesus Alan, stop acting like my mom!"
+    
+    c "Everything's fine, seriously."
+    
+    a "Sorry, sorry. I'm just..."
+    
+    hide carol angry with dissolve
+    show carol happy with dissolve
+    
+    "I couldn’t explain my exasperation, but Carol seemed to understand regardless."
+    
+    "Buses came and went, people stepped in and out, and we waited, sharing our body heat as our only means of communication."
+    
+    show carol smile
+    
+    c "There it is."
+    
+    hide carol smile with dissolve
+    
+    "Carol stood up. At the same time, the speakers called for anyone heading towards Carol’s hometown: their transport was ready."
+    
+    "Defeated, I followed Carol to the platform."
+    
+    "People were loading their luggage and showing their tickets."
+    
+    "Carol did the same, handing over the few bags she was carrying."
+    
+    show carol happy with dissolve
+    
+    c "I guess this is it then."
+    
+    "My heart sunk, and I was unable to look her in the eye."
+    
+    show carol concerned
+    
+    c "Hey, c’mon. Don’t look so sad Alan; you’re going to make it hard for me as well."
+    
+    a "Yeah, I know. You’re that type of person after all."
+    
+    show carol smile
+    
+    c "Yup, so cheer up! C’mon, show me a smile!"
+    
+    "I tried my best to do what she wanted."
+    
+    show carol happy
+    
+    c "...that’s a very unconvincing smile, but it’ll have to do."
+    
+    "Carol knew she needed to step in and find her seat, but she stayed outside, looking at me somewhat nervously."
+    
+    "Just like me, she wasn’t sure how to bid her farewells."
+    
+    show carol blush
+    
+    c "Come over here for a bit."
+    
+    hide carol blush with dissolve
+    
+    "I did as she said, and I felt her arms slowly wrapping around my chest."
+    
+    "Though taken aback for a second, I made haste to embrace her back."
+    
+    a "I’m going to miss you."
+    
+    c "I know."
+    
+    c "I'll miss you too."
+    
+    "Her warmth stayed with me, even as we separated."
+    
+    "My mind felt numb; my heart felt hot."
+    
+    show carol happy with dissolve
+    
+    c "Goodbye, Alan."
+    
+    a "See you around."
+    
+    hide carol happy with dissolve
+    
+    "As I said those words, Carol turned around and prepared to climb the steps into the bus."
+    
+    "Though that hug should’ve been enough, I quickly realized there was something else I wanted to say."
+    
+    a "Carol!"
+    
+    show carol neutral with dissolve
+    
+    "She stopped under the threshold, and turned around to face me."
+    
+    "Honestly, it was scary to say it. It was one of the countless things I’d held back over the past 2 years."
+    
+    "The thought of spouting those words and possibly changing something between us was scarier than anything I could ever imagine."
+    
+    "However, she explained herself well enough: how she hated whenever I avoided saying the things I wanted to say."
+    
+    "So I said..."
+    
+    menu:
+        "'Take care of yourself.'":
+            jump choice5a
+        "'I love you.'":
+            jump choice5b
+    
+    label choice5a:
+        
+    a "Take care of yourself."
+        
+    "Somehow, I managed to stop myself from saying something I shouldn’t."
+        
+    show carol smile
+    pause 1.5
+        
+    c "...yeah, you take care as well."
+        
+    hide carol happy with dissolve
+        
+    "Carol showed me a warm smile from the other side of the glass as the doors closed, and the bus took off."
+        
+    "Motionless, I stared at the machine as it drew Carol further away from my sight, until I could no longer see her silhouette standing by one of the windows."
+        
+    "Just like any of the countless unimportant farewells that took place on that station, ours’ ended, unnoticed by everyone but ourselves."
+        
+    "Was that the right choice to make? I don’t know, and I’ll probably never know."
+        
+    "It could’ve changed something in our lives, just like it could’ve been completely meaningless."
+        
+    "I don’t regret nor curse myself for keeping my mouth shut that day."
+        
+    "Only, when I think back on the whirlwind of emotions convoluted in my chest at the time, my heart sinks a little."
+        
+    "Not for what it could’ve been, but for what it was."
+        
+    "Even back then I knew that those would be the last words I’d exchange face-to-face with Carol."
+        
+    "The thought alone, no matter how hard I tried to sugarcoat it, was depressing enough to cry."
+        
+    jump choice5c
+        
+    label choice5b:
+        
+    a "I love you."
+        
+    "Though the words have a hard time crawling out of my throat, I somehow expressed the feelings I wanted to convey the most."
+        
+    hide carol neutral with dissolve
+    show carol blush with dissolve
+    pause 1.5
+        
+    c "Yeah."
+        
+    hide carol blush with dissolve
+        
+    "She hopped out of the bus, to the annoyance of the driver, who just wanted to leave the station at once."
+        
+    "It was for a brief moment, but I felt her cold lips rubbing against my left cheek."
+        
+    "Her hands rested on my shoulders, and she sighed, placing her head on my chest."
+        
+    show carol blush with dissolve
+        
+    "Finally, Carol stepped back."
+        
+    "She blushed, though I couldn’t tell if it was because of the cold or the kiss."
+        
+    c "I love you too."
+        
+    hide carol blush with dissolve
+        
+    "The driver was hurrying her up. She quickly stepped into the bus, but our eyes stood their ground, gazing directly at each other."
+        
+    show carol smile with dissolve
+        
+    c "Don’t forget to call!"
+        
+    hide carol smile with dissolve
+        
+    "The door closed."
+        
+    a "I won't!"
+        
+    "Her voice was muffled by the door between us and the roaring engine, but I could still make out her answer."
+        
+    c "You better, or else I won’t forgive you!"
+        
+    c "And thanks for everything!"
+        
+    "Motionless, I stared at the machine as it drew Carol further away from my sight, until I could no longer see her silhouette standing by the window."
+        
+    "In the end, my choice didn’t change a thing about our relationship."
+        
+    "Carol didn’t reject me, nor did she stay by my side."
+        
+    "I laughed at how nervous I had felt before professing my love."
+        
+    "I understood almost immediately: her “love” wasn’t the same as mine. She cherished me, but not in the way I had hoped."
+        
+    "Otherwise she wouldn’t have left."
+        
+    "Still, it made me somewhat happy to know that I was important to her, to some degree."
+        
+    "I don’t regret nor curse myself for saying those words that day."
+        
+    "Only, when I think back on the lethargic happiness that took over my mind after her departure, my heart breaks a little."
+        
+    "Not for what it could’ve been, but for what it was."
+        
+    "Even back then I knew that those would be the last words I’d exchange face-to-face with Carol."
+        
+    "But the thought wouldn’t cross my mind for a while."
+        
+    jump choice5c
+        
+    label choice5c:
+        
+    stop music fadeout 1
+    scene bg blackscreen with dissolve
+    pause 1.5
+    
+    "We stayed in contact with each other via texting and occasional phone calls."
+        
+     
     
     
     

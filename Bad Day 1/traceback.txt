@@ -1,20 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 1485, in script
-    g "Yup, I know. You’ve grown so much!"
-Exception: Sayer 'g' is not defined.
+  File "game/script.rpy", line 2152, in script
+    jump choiceb
+ScriptError: could not find label 'choiceb'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 1485, in script
-    g "Yup, I know. You’ve grown so much!"
-  File "C:\Users\daniel\Desktop\Ren'py\renpy\ast.py", line 584, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\daniel\Desktop\Ren'py\renpy\ast.py", line 501, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'g' is not defined.
+  File "game/script.rpy", line 2152, in script
+    jump choiceb
+  File "C:\Users\daniel\Desktop\Ren'py\renpy\ast.py", line 1520, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\daniel\Desktop\Ren'py\renpy\script.py", line 843, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'choiceb'.
 
 Windows-8-6.2.9200
 Ren'Py 6.99.10.1227
