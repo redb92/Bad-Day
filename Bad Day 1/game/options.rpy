@@ -22,7 +22,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "Bad Day"
-    config.version = "0.0"
+    config.version = "0.1"
 
     #########################################
     # Themes
@@ -74,7 +74,7 @@ init -1 python hide:
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
-        rounded_window = False,
+        rounded_window = True,
 
         ## And we're done with the theme. The theme will customize
         ## various styles, so if we want to change them, we should
@@ -143,7 +143,7 @@ init -1 python hide:
 
     ## The default size of text.
 
-    # style.default.size = 22
+    style.default.size = 26
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
@@ -201,28 +201,28 @@ init -1 python hide:
     ## Transitions.
 
     ## Used when entering the game menu from the game.
-    config.enter_transition = None
+    config.enter_transition = dissolve
 
     ## Used when exiting the game menu to the game.
-    config.exit_transition = None
+    config.exit_transition = dissolve
 
     ## Used between screens of the game menu.
-    config.intra_transition = None
+    config.intra_transition = dissolve
 
     ## Used when entering the game menu from the main menu.
-    config.main_game_transition = None
+    config.main_game_transition = dissolve
 
     ## Used when returning to the main menu from the game.
-    config.game_main_transition = None
+    config.game_main_transition = dissolve
 
     ## Used when entering the main menu from the splashscreen.
-    config.end_splash_transition = None
+    config.end_splash_transition = dissolve
 
     ## Used when entering the main menu after the game has ended.
-    config.end_game_transition = None
+    config.end_game_transition = dissolve
 
     ## Used when a game is loaded.
-    config.after_load_transition = None
+    config.after_load_transition = dissolve
 
     ## Used when the window is shown.
     config.window_show_transition = None
@@ -272,11 +272,11 @@ init -1 python hide:
 
     ## The default text speed in characters per second. 0 is infinite.
 
-    config.default_text_cps = 0
+    config.default_text_cps = 50
 
     ## The default auto-forward time setting.
 
-    config.default_afm_time = 10
+    config.default_afm_time = 50
 
     #########################################
     ## More customizations can go here.
