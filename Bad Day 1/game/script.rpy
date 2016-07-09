@@ -975,7 +975,7 @@ label start:
     
     show carol neutral
     
-    c "I’m sorry. I shouldn’t have pushed you."
+    c "I’m sorry. I shouldn’t have given you the chance to talk."
     
     "Her voice sounded hoarse."
     
@@ -1080,7 +1080,9 @@ label start:
     
     pause 2
     
-    "Taking a walk across the neighboring shopping district, I glanced at a peculiar sight."
+    "Needing some time to cool off, I decided to take a walk across the neighboring shopping district."
+    
+    "As I was trying to relax, I glanced at a peculiar sight."
     
     "A block away from me, in front of a trendy café, I recognized Carol talking with two other guys I didn’t know."
     
@@ -1685,7 +1687,7 @@ label start:
     
     c "The elevator was taking way too long!"
     
-    a "You’re going to get a cold that way, with this weather."
+    a "You’re going to get a chill that way, with this weather."
     
     show carol happy
     
@@ -2795,7 +2797,7 @@ label start:
     
     "I failed her, and I’d have to live with that for the rest of my life."
     
-    "It’s only tortuous… and maybe a little bit sad."
+    "It’s only torturous… and maybe a little bit sad."
     
     pause 3
 
@@ -2867,7 +2869,7 @@ label start:
     
     c "..."
     
-    a "I’m glad, though to be honest, I believe you should."
+    a "I’m glad, though to be honest, I believe you should be."
     
     a "I made too many mistakes to be forgiven."
     
@@ -3076,11 +3078,13 @@ label start:
     show carol blur with dissolve
     pause 1
     
-    a "Still, I like to think they did."
+    a "Still, I like to think they did... that they changed something in you."
     
-    a "That they changed something in you, for the worst."
+    a "I don’t know."
     
-    a "It somehow makes me feel at ease: it lets me believe I was THAT important to you."
+    a "Maybe I just want to believe that my words were THAT important to you…"
+    
+    a "...as horrible as that might sound."
     
     "I rest my voice, and my eyes fall to the ground."
     

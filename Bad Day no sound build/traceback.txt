@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 2638, in script
+    center "I punched."
+Exception: Parameter 'interact' is not known by ATL Transform.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 2638, in script
+    center "I punched."
+  File "C:\Users\daniel\Desktop\Ren'py\renpy\ast.py", line 604, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "C:\Users\daniel\Desktop\Ren'py\renpy\exports.py", line 1122, in say
+    who(what, interact=interact)
+  File "C:\Users\daniel\Desktop\Ren'py\renpy\atl.py", line 388, in __call__
+    raise Exception('Parameter %r is not known by ATL Transform.' % k)
+Exception: Parameter 'interact' is not known by ATL Transform.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.10.1227
+Bad Day 0.1
